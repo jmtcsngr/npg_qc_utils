@@ -5,7 +5,7 @@ CFLAGS = -g -Wall
 BUILDDIR=build
 
 INCLUDES= -I.
-LIBS= -lz -lm
+LIBS= -lm
 LIBPATH=
 
 $(BUILDDIR)/%.o: %.c 
